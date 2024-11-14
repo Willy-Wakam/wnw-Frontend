@@ -14,7 +14,7 @@ import BookingPage from './pages/BookingPage';
 /* import {disableReactDevTools} from '@fvilers/disable-react-devtools';
 import process from 'process'; */
 
-axios.defaults.baseURL = 'https://wnw-api.onrender.com';
+axios.defaults.baseURL = 'https://wnw-api.vercel.app';
 axios.defaults.withCredentials = true;
 
 // if(process?.env?.NODE_ENV === 'production') disableReactDevTools();
