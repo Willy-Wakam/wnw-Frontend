@@ -14,7 +14,7 @@ import BookingPage from './pages/BookingPage';
 /* import {disableReactDevTools} from '@fvilers/disable-react-devtools';
 import process from 'process'; */
 
-axios.defaults.baseURL = 'https://vercel.com/willys-projects-eee5ca08/wnw-api/363FCQv63y7NapbGCK26G9WMLPu7';
+axios.defaults.baseURL = 'https://wnw-api.vercel.app/';
 axios.defaults.withCredentials = true;
 
 // if(process?.env?.NODE_ENV === 'production') disableReactDevTools();
