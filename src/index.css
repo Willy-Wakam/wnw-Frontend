@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"], input[type="password"], input[type="email"], textarea{
+  @apply w-full border my-3 py-2 px-4 rounded-lg;
+}
+
+button.primary{
+  @apply bg-primary px-5 py-3 rounded-lg text-white font-bold w-full text-xl;
+}
