@@ -65,7 +65,7 @@ export default function PhotoUploader({addedPhotos, onChange}){
                                     <>
                                         <div key={linkPhoto?.newName} className="relative group flex h-40">
                                             <img className="rounded-lg shadow-md shadow-gray-200 z-0 w-full object-cover" 
-                                                    src={"http://localhost:4000/uploads/" + linkPhoto?.newName} key={uuidv4() + "-" + index + "-" + linkPhoto?.newName} alt="" />
+                                                    src={"https://wnw-app.onrender.com//uploads/" + linkPhoto?.newName} key={uuidv4() + "-" + index + "-" + linkPhoto?.newName} alt="" />
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" onClick={() => removePhoto(linkPhoto?.newName)} 
                                                     className="size-6 z-40 bg-primary 
                                                     absolute right-1 top-1 rounded-lg mr-1 mt-1 cursor-pointer hidden 
